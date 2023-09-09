@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 const Home = () => {
   return (
     <>
@@ -92,6 +91,117 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-wrapper-2 py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="servies d-flex align-items-center justify-content-between">
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service.png" alt="servies" />
+                  <div>
+                    <h6>Free Shipping</h6>
+                    <p className="mb-0">From all orders over $100</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service-02.png" alt="servies" />
+                  <div>
+                    <h6>Daily Surprise Offers</h6>
+                    <p className="mb-0">Save up to 25% off</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service-03.png" alt="servies" />
+                  <div>
+                    <h6>Support 24/7</h6>
+                    <p className="mb-0">Shop with an expert</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service-04.png" alt="servies" />
+                  <div>
+                    <h6>Affordable Prices</h6>
+                    <p className="mb-0">Get Factory direct price</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service-05.png" alt="servies" />
+                  <div>
+                    <h6>Secure Payments</h6>
+                    <p className="mb-0">100% Protected Payments</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-wrapper-2 py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="categories d-flex flex-wrap align-items-center justify-content-between">
+                <Link className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Computers & Laptop</h6>
+                    <p>8 Items</p>
+                  </div>
+                  <img src="images/laptop.jpg" alt="camera" />
+                </Link>
+                <Link className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Cameras & Videos</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="images/speaker.jpg" alt="camera" />
+                </Link>
+                <Link className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Smart Television</h6>
+                    <p>12 Items</p>
+                  </div>
+                  <img src="images/tv.jpg" alt="camera" />
+                </Link>
+                <Link className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Smartwatches</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="images/camera.jpg" alt="camera" />
+                </Link>
+                <Link className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Computers & Laptop</h6>
+                    <p>8 Items</p>
+                  </div>
+                  <img src="images/laptop.jpg" alt="camera" />
+                </Link>
+                <Link className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Cameras & Videos</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="images/speaker.jpg" alt="camera" />
+                </Link>
+                <Link className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Smart Television</h6>
+                    <p>12 Items</p>
+                  </div>
+                  <img src="images/tv.jpg" alt="camera" />
+                </Link>
+                <Link className="d-flex gap-30 align-items-center">
+                  <div>
+                    <h6>Smartwatches</h6>
+                    <p>10 Items</p>
+                  </div>
+                  <img src="images/camera.jpg" alt="camera" />
+                </Link>
               </div>
             </div>
           </div>
