@@ -344,3 +344,9 @@ footer .input-group-btn:hover {
   top: 2%;
   right: 15px;
 }
+
+.special-product-card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
