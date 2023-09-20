@@ -26,27 +26,53 @@ function OurStore() {
                 <h3 className="filter-title">Filter By</h3>
                 <div>
                   <h5 className="sub-title">Availability</h5>
-                  <div className="form-check">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id=""
-                    />
-                    <label className="form-check-lable" for="">
-                      In stock (21)
-                    </label>
+                  <div>
+                    <div className="form-check">
+                      <input
+                        className="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id=""
+                      />
+                      <label className="form-check-lable" htmlFor="">
+                        In stock (21)
+                      </label>
+                    </div>
+                    <div className="form-check">
+                      <input
+                        className="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id=""
+                        checked
+                      />
+                      <label className="form-check-lable" htmlFor="">
+                        Out of stock (1)
+                      </label>
+                    </div>
                   </div>
-                  <div className="form-check">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id=""
-                    />
-                    <label className="form-check-lable" for="">
-                      Out of stock (1)
-                    </label>
+                  <h5 className="sub-title">Price</h5>
+                  <div className="d-flex align-items-center gap-10">
+                    <div class="form-floating mb-3 d-flex align-items-center">
+                      $
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="From"
+                      />
+                      <label for="floatingInput">From</label>
+                    </div>
+                    <div class="form-floating mb-3 d-flex align-items-center">
+                      $
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="floatingInput1"
+                        placeholder="To"
+                      />
+                      <label for="floatingInput1">To</label>
+                    </div>
                   </div>
                 </div>
               </div>
