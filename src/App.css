@@ -428,3 +428,31 @@ footer .input-group-btn:hover {
   margin-bottom: 15px;
   margin-top: 15px;
 }
+
+.colors {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colors li {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.product-tags .badge {
+  font-weight: 400;
+}
+
+.randon-products h5,
+.randon-products p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.randon-products:first-child {
+  border-bottom: 1px solid var(--color-ededed);
+}
