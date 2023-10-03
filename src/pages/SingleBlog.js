@@ -1,13 +1,12 @@
 import React from "react";
-import BlogCard from "../components/BlogCard";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 
-function Blog() {
+function SingleBlog() {
   return (
     <>
-      <Meta title={"Blogs"} />
-      <BreadCrumb title="Blogs" />
+      <Meta title={"Dynamic Blog Name"} />
+      <BreadCrumb title="Dynamic Blog Name" />
       <div className="blog-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">
           <div className="row">
@@ -24,22 +23,7 @@ function Blog() {
                 </div>
               </div>
             </div>
-            <div className="col-9">
-              <div className="row">
-                <div className="col-6 mb-3">
-                  <BlogCard />
-                </div>
-                <div className="col-6 mb-3">
-                  <BlogCard />
-                </div>
-                <div className="col-6 mb-3">
-                  <BlogCard />
-                </div>
-                <div className="col-6 mb-3">
-                  <BlogCard />
-                </div>
-              </div>
-            </div>
+            <div className="col-9"></div>
           </div>
         </div>
       </div>
@@ -47,4 +31,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default SingleBlog;
